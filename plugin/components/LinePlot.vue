@@ -106,7 +106,7 @@ export default {
       required: false,
       default: false
     },
-    /** X values for all arrays in yValues. */
+    /** x-values for all arrays in yValues. */
     xValues: {
       type: Array,
       required: true
@@ -403,7 +403,6 @@ export default {
 .LinePlot {
   display: inline-block;
   position: relative;
-  /* width: 100%; */
   padding-bottom: 8px;
 }
 
