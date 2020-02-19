@@ -1,0 +1,40 @@
+{
+  "name": "dataviz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvanova/dataviz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvanova/dataviz/issues"
+  },
+  "homepage": "https://github.com/hvanova/dataviz#readme",
+  "dependencies": {
+    "tachyons": "^4.11.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/addon-a11y": "^5.3.13",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-docs": "^5.3.13",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/vue": "^5.3.13",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "tachyons": "^4.10.0",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

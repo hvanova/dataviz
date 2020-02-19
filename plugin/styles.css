@@ -1,0 +1,14 @@
+:root {
+  --primary: #0038ff;
+  --primary-hover: #0032e3;
+  --secondary: #141618;
+  --error: #da1e28;
+  --success: #1d833b;
+  --highlight: #ffe55e;
+
+  --series0: #0032e3;
+  --series1: #1d833b;
+  --series2: #da1e28;
+  --series3: #ee00ff;
+  --series4: #00d0ff;
+}
