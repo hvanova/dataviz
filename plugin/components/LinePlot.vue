@@ -68,19 +68,12 @@
             :y2="gHeight"
             class="tooltipLine"
           />
-          <circle
-            :cx="tooltip.cx + tooltip.x_offset"
-            :cy="tooltip.cy"
-            r="16"
-            class="tooltip"
-          />
+          <circle :cx="tooltip.cx + tooltip.x_offset" :cy="tooltip.cy" r="16" class="tooltip" />
           <text
             :x="tooltip.cx + tooltip.x_offset"
             :y="tooltip.cy + 4"
             class="tooltipText"
-          >
-            {{ tooltip.val }}
-          </text>
+          >{{ tooltip.val }}</text>
           <circle
             :cx="tooltip.cx"
             :cy="tooltip.cy"
@@ -158,7 +151,7 @@ export default {
     },
     gHeight: function() {
       if (this.dateTime) {
-        return this.svgHeight - this.plotInset.y * 4;
+        return this.svgHeight - this.plotInset.y * 5;
       }
       return this.svgHeight - this.plotInset.y * 3;
     },
@@ -403,7 +396,6 @@ export default {
 .LinePlot {
   display: inline-block;
   position: relative;
-  padding-bottom: 8px;
 }
 
 .labels {
@@ -446,7 +438,7 @@ export default {
 
 .svg .xAxisDate {
   text-anchor: end;
-  transform: translate(48px, 352px);
+  transform: translate(48px, 337px);
 }
 
 .svg .xAxisNum {
