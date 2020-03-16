@@ -93,7 +93,7 @@ import * as d3 from "d3";
 
 export default {
   props: {
-    /** Specifies if x values are of time dateTime, else they are numerical */
+    /** Specifies if x-values are of time dateTime, else they are numerical */
     dateTime: {
       type: Boolean,
       required: false,
@@ -104,7 +104,7 @@ export default {
       type: Array,
       required: true
     },
-    /** An array of arrays, each which defines the y-values for a single line. */
+    /** An array of arrays. Each defines the y-values for a single line. */
     yValues: {
       type: Array,
       required: true
@@ -114,7 +114,7 @@ export default {
       type: Array,
       required: true
     },
-    /** Flag indicating whether or not a dual axis should be enforced. */
+    /** Flag to enforce a dual axis. Requires that there are only two lines. */
     dualAxis: {
       type: Boolean,
       required: false,
